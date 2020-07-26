@@ -9,14 +9,14 @@ from pyquil.quil import Program
 from pyquil.api import *
 from pyquil.gates import *
 
-p = Program(H(0), CNOT(0, 1))
-qc = get_qc('2q-qvm')
-results = qc.run_and_measure(p, trials=10)
+p1 = Program(H(0), CNOT(0, 1))
+qc1 = get_qc('2q-qvm')
+results = qc1.run_and_measure(p1, trials=10)
 print(list(zip(results[0], results[1])))
 
-p = Program(H(1), CNOT(1, 2))
-qc = get_qc('Aspen-4-2Q-A')
-results = qc.run_and_measure(p, trials=10)
+p1 = Program(H(1), CNOT(1, 2))
+qc1 = get_qc('Aspen-4-2Q-A')
+results = qc1.run_and_measure(p1, trials=10)
 print(list(zip(results[1], results[2])))
 
 ```
