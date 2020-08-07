@@ -4,6 +4,9 @@
 # WHAT: 
 #### A quantum computer is a machine that uses quantum mechanics to perform calculations; instead of using bits and logic gates as current compters, quantum computers use qubits and quantum gates. Qubit is a vector of two complex numbers with unit length.
 
+
+
+
 ``` python
 from pyquil.quil import Program
 from pyquil.api import *
@@ -22,3 +25,11 @@ print(list(zip(results[1], results[2])))
 ```
 
 [https://www.youtube.com/watch?v=0Eeuqh9QfNI&feature=youtu.be&t=2745]
+
+
+
+
+Reference: [https://cirq.readthedocs.io/en/stable/index.html]
+
+# Cirq
+Cirq is a software library for writing, manipulating, and optimizing quantum circuits and then running them against quantum computers and simulator
