@@ -28,4 +28,4 @@ print(list(zip(results[1], results[2])))
 
 Reference: [https://cirq.readthedocs.io/en/stable/index.html]
 # Cirq
-Cirq is a software library for writing, manipulating, and optimizing quantum circuits and then running them against quantum computers and simulator
+Cirq is a software library for writing, manipulating, and optimizing quantum circuits and then running them against quantum computers and simulators. Cirq attempts to expose the details of hardware, instead of abstracting them away, because, in the Noisy Intermediate-Scale Quantum (NISQ) regime, these details determine whether or not it is possible to execute a circuit at all.
