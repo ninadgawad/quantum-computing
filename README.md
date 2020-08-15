@@ -25,6 +25,7 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 
 
 
+![Qiskit](https://github.com/ninadgawad/QuantumAlgorithm/blob/master/Qiskit.jpg)
 
 
 
