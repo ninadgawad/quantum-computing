@@ -14,6 +14,9 @@ Areas where Quantum Computing can help:
 ## What can we do with Quantum Computers ? 
 We can write algorithms using Quantum Computers to solve these complex problems which work on 2^N qbit scale to solve the problems 
 
+## Quantum supremacy
+John Preskill has introduced this term *quantum supremacy* to refer to the hypothetical speedup advantage that a quantum computer would have over a classical computers.
+
 # Tools
 
 ## Cirq
