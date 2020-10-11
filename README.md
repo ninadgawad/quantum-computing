@@ -29,10 +29,11 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 
 ### Qiskit Modules ###
 ![Qiskit](https://github.com/ninadgawad/QuantumAlgorithm/blob/master/Qiskit.png)
-![Reference](https://developer.ibm.com/depmodels/quantum-computing/projects/qiskit/)
+
 
 
 Reference: 
 - [https://cirq.readthedocs.io/en/stable/index.html]
 - [https://qiskit.org/documentation/index.html]
 - [https://www.youtube.com/watch?v=JRIPV0dPAd4]
+- [https://developer.ibm.com/depmodels/quantum-computing/projects/qiskit]
