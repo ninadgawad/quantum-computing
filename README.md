@@ -38,3 +38,4 @@ Reference:
 - [https://qiskit.org/documentation/index.html]
 - [https://www.youtube.com/watch?v=JRIPV0dPAd4]
 - [https://developer.ibm.com/depmodels/quantum-computing/projects/qiskit]
+- [Qiskit Textbook Link](https://qiskit.org/textbook/preface.html)
