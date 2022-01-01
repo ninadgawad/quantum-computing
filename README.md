@@ -43,10 +43,13 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 
 
 
-Reference:
+# Reference:
 - [https://en.wikipedia.org/wiki/Quantum_computing]
 - [https://cirq.readthedocs.io/en/stable/index.html]
 - [https://qiskit.org/documentation/index.html]
 - [https://www.youtube.com/watch?v=JRIPV0dPAd4]
 - [https://developer.ibm.com/depmodels/quantum-computing/projects/qiskit]
 - [Qiskit Textbook Link](https://qiskit.org/textbook/preface.html)
+
+# Latest News
+12/29/2021 - [Research opens the door to fully light based quantum computing](https://www.tomshardware.com/news/research-opens-the-door-to-fully-light-based-quantum-computing)
