@@ -5,6 +5,7 @@ Areas where Quantum Computing can help:
 - Optimization 
 - Chemistry 
 - Encryption
+- Security
 
 ## Why Quantum Computing work? 
 - Superposition    
