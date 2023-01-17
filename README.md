@@ -49,7 +49,7 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 - [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)
 - [Cirq](https://cirq.readthedocs.io/en/stable/index.html)
 - [Qiskit](https://qiskit.org/documentation/index.html)
-- [https://www.youtube.com/watch?v=JRIPV0dPAd4]
+- [Beginner’s Guide To Quantum Computing](https://www.youtube.com/watch?v=JRIPV0dPAd4)
 - [Qiskit Developer](https://developer.ibm.com/depmodels/quantum-computing/projects/qiskit)
 - [Qiskit Textbook Link](https://qiskit.org/textbook/preface.html)
 
