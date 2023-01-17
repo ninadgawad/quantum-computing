@@ -33,16 +33,11 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 ![Qiskit](https://github.com/ninadgawad/QuantumAlgorithm/blob/master/Qiskit.png)
 
 
-### Things to Learn 
+## Things to Learn 
 1. Quantum Gates and Circuits
 2. Qubits, Bloch Sphere and Basis States 
 3. Bernstein-Vazirani Algorithm 
 4. Multiple Qubits and Entanglement 
-
-
-
-
-
 
 
 # Reference:
