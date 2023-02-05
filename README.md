@@ -20,8 +20,8 @@ John Preskill has introduced this term *quantum supremacy* to refer to the hypot
 
 # Language and Tools
 
-## Q#
-
+## Q# ("Q" Sharp)
+Q# (pronounced "Q sharp") is a domain-specific programming language developed by Microsoft for quantum computing. It is designed to be used for writing quantum algorithms, simulating quantum systems, and compiling quantum programs for execution on a quantum computer or quantum simulator.
 
 Here is a simple example of quantum code in Q#, a quantum programming language developed by Microsoft:
 
