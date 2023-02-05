@@ -40,14 +40,8 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 4. Multiple Qubits and Entanglement 
 
 
-## Key featuresSuperposition: The ability of a quantum bit (qubit) to exist in multiple states simultaneously.
-- Entanglement: The phenomenon where the state of one qubit is correlated with the state of another, even at great distances.
-- Interference: The ability of quantum systems to interfere with each other, which can be harnessed for quantum algorithms.
-- Amplitude amplification: A technique used in quantum algorithms to amplify the probability of the desired outcome.
-- Quantum parallelism: The ability of a quantum computer to perform multiple calculations at once, due to the superposition and entanglement of qubits.
-- Quantum tunneling: The ability of quantum systems to tunnel through potential barriers, which can be used for quantum optimization algorithms.
-- No cloning theorem: The principle that it is impossible to perfectly copy an unknown quantum state, which has implications for quantum cryptography.
-Superposition: The ability of a quantum bit (qubit) to exist in multiple states simultaneously.
+## Key features
+- Superposition: The ability of a quantum bit (qubit) to exist in multiple states simultaneously.
 - Entanglement: The phenomenon where the state of one qubit is correlated with the state of another, even at great distances.
 - Interference: The ability of quantum systems to interfere with each other, which can be harnessed for quantum algorithms.
 - Amplitude amplification: A technique used in quantum algorithms to amplify the probability of the desired outcome.
