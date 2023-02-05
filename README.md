@@ -18,7 +18,30 @@ We can write algorithms using Quantum Computers to solve these complex problems 
 ## Quantum supremacy
 John Preskill has introduced this term *quantum supremacy* to refer to the hypothetical speedup advantage that a quantum computer would have over a classical computers.
 
-# Tools
+# Language and Tools
+
+## Q#
+
+
+Here is a simple example of quantum code in Q#, a quantum programming language developed by Microsoft:
+
+```scss
+operation BellStatePrep () : Unit {
+    using (qubits = Qubit[2]) {
+        H(qubits[0]);
+        CNOT(qubits[0], qubits[1]);
+    }
+}
+```
+scss
+Copy code
+operation BellStatePrep () : Unit {
+    using (qubits = Qubit[2]) {
+        H(qubits[0]);
+        CNOT(qubits[0], qubits[1]);
+    }
+}
+This code prepares the quantum state known as a Bell state, which is a type of entangled state often used in quantum computing experiments and quantum communication protocols. The code uses two qubits, and applies a Hadamard gate (H) to the first qubit followed by a controlled-NOT (CNOT) gate on both qubits.
 
 ## Cirq
 Cirq is a software library for writing, manipulating, and optimizing quantum circuits and then running them against quantum computers and simulators. Cirq attempts to expose the details of hardware, instead of abstracting them away, because, in the Noisy Intermediate-Scale Quantum *(NISQ)* regime, these details determine whether or not it is possible to execute a circuit at all.
@@ -26,7 +49,6 @@ Cirq is a software library for writing, manipulating, and optimizing quantum cir
 ## Qiskit 
 Qiskit is an open-source framework for working with quantum computers at the level of circuits, pulses, and algorithms.
 A central goal of Qiskit is to build a software stack that makes it easy for anyone to use quantum computers. However, Qiskit also aims to facilitate research on the most important open issues facing quantum computation today.
-
 
 
 ### Qiskit Modules ###
