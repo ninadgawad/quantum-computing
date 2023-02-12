@@ -92,4 +92,5 @@ Quantum computing can be used to design more efficient, safer aircraft and traff
 
 # Latest News
 12/29/2021 - [Research opens the door to fully light based quantum computing](https://www.tomshardware.com/news/research-opens-the-door-to-fully-light-based-quantum-computing)
+
 08/28/2022 - [Investopedia Quantum Computing](https://www.investopedia.com/terms/q/quantum-computing.asp)
