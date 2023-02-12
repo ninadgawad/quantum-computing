@@ -71,6 +71,16 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 - Quantum tunneling: The ability of quantum systems to tunnel through potential barriers, which can be used for quantum optimization algorithms.
 - No cloning theorem: The principle that it is impossible to perfectly copy an unknown quantum state, which has implications for quantum cryptography.
 
+## Benefits of Quantum Computing
+Quantum computing could contribute greatly to the fields of security, finance, military affairs and intelligence, drug design and discovery, aerospace designing, utilities (nuclear fusion), polymer design, machine learning, artificial intelligence (AI), Big Data search, and digital manufacturing. 
+Quantum computers could be used to improve the secure sharing of information. Or to improve radars and their ability to detect missiles and aircraft. Another area where quantum computing is expected to help is the environment and keeping water clean with chemical sensors.
+Here are some potential benefits of quantum computing:
+Financial institutions may be able to use quantum computing to design more effective and efficient investment portfolios for retail and institutional clients. They could focus on creating better trading simulators and improve fraud detection.
+The healthcare industry could use quantum computing to develop new drugs and genetically-targeted medical care. It could also power more advanced DNA research.
+For stronger online security, quantum computing can help design better data encryption and ways to use light signals to detect intruders in the system.
+Quantum computing can be used to design more efficient, safer aircraft and traffic planning systems.
+40%
+
 # Reference:
 - [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)
 - [Q#](https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/#overview)
@@ -82,3 +92,4 @@ A central goal of Qiskit is to build a software stack that makes it easy for any
 
 # Latest News
 12/29/2021 - [Research opens the door to fully light based quantum computing](https://www.tomshardware.com/news/research-opens-the-door-to-fully-light-based-quantum-computing)
+08/28/2022 - [Investopedia Quantum Computing](https://www.investopedia.com/terms/q/quantum-computing.asp)
