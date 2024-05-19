@@ -1,12 +1,20 @@
 # Quantum Computing 
 A quantum computer is a machine that uses quantum mechanics to perform calculations; instead of using bits and logic gates as current compters, quantum computers use qubits and quantum gates. Qubit is a vector of two complex numbers with unit length.
 
-Areas where **Quantum Computing** can help: 
-- Optimization 
+Quantum computing is a revolutionary technology that leverages the principles of quantum mechanics to process information. 
+Unlike classical computers, which use bits as the smallest unit of data (either 0 or 1), quantum computers use quantum bits or qubits. 
+Qubits can exist in multiple states simultaneously due to superposition, and they can be entangled, enabling complex computations at unprecedented speeds.
+
+## Benefits
+Quantum computing holds the promise of solving certain problems much faster than classical computers. This includes tasks like cryptography, where it can potentially break current encryption methods, and optimization problems, which are prevalent in various industries. Quantum computers can also simulate quantum systems accurately, making them invaluable for scientific research and material science.
+
+## Areas where Quantum Computing can help: 
+- Optimization/Financial Modeling/Climate Modeling
 - Chemistry 
-- Encryption
+- Encryption/Cryptography
 - Security
 - Operations
+- Artificial Intelligence
 
 ## Why Quantum Computing work? 
 - Superposition    
