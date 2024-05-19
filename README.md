@@ -165,6 +165,8 @@ plt.show()
 
 
 ### BB84 Example with Python Code (Using Simulated Qubits)
+BB84 is a quantum key distribution protocol that uses the unique properties of quantum mechanics to establish a secure key between two parties. 
+It ensures that any eavesdropping attempt can be detected, providing a robust foundation for secure communication in the quantum age.
 
 ```python
 import numpy as np
