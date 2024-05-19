@@ -164,6 +164,53 @@ plt.show()
 ```
 
 
+### BB84 Example with Python Code (Using Simulated Qubits)
+
+```python
+import numpy as np
+
+# Function to encode a bit using a given basis
+def encode_bit(bit, basis):
+    if basis == 'rectilinear':
+        return '0' if bit == 0 else '1'
+    elif basis == 'diagonal':
+        return '+' if bit == 0 else '-'
+
+# Function to measure a qubit using a given basis
+def measure_qubit(qubit, basis):
+    if basis == 'rectilinear':
+        return 0 if qubit in ['0', '+'] else 1
+    elif basis == 'diagonal':
+        return 0 if qubit in ['0', '+'] else 1
+
+# Simulate Alice's bit and basis selection
+np.random.seed(42)
+alice_bits = np.random.randint(2, size=10)
+alice_bases = np.random.choice(['rectilinear', 'diagonal'], size=10)
+
+# Alice encodes the bits into qubits
+alice_qubits = [encode_bit(bit, basis) for bit, basis in zip(alice_bits, alice_bases)]
+
+# Simulate Bob's basis selection
+bob_bases = np.random.choice(['rectilinear', 'diagonal'], size=10)
+
+# Bob measures the qubits
+bob_results = [measure_qubit(qubit, basis) for qubit, basis in zip(alice_qubits, bob_bases)]
+
+# Announce and compare bases
+matching_indices = [i for i in range(10) if alice_bases[i] == bob_bases[i]]
+shared_key = [alice_bits[i] for i in matching_indices]
+
+print(f"Alice's bits:       {alice_bits}")
+print(f"Alice's bases:      {alice_bases}")
+print(f"Bob's bases:        {bob_bases}")
+print(f"Bob's measurement:  {bob_results}")
+print(f"Matching indices:   {matching_indices}")
+print(f"Shared key:         {shared_key}")
+
+```
+
+
 # Reference:
 - [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)
 - [Q#](https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/#overview)
