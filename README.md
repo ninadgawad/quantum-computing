@@ -89,6 +89,81 @@ For stronger online security, quantum computing can help design better data encr
 Quantum computing can be used to design more efficient, safer aircraft and traffic planning systems.
 40%
 
+
+### Quantum Encryption and Decryption with Qiskit
+```python
+# Importing necessary libraries from Qiskit
+from qiskit import QuantumCircuit, Aer, transpile, assemble, execute
+from qiskit.visualization import plot_histogram
+import matplotlib.pyplot as plt
+
+# Define the quantum circuit for encryption
+def quantum_encryption():
+    # Create a Quantum Circuit with 1 qubit and 1 classical bit
+    circuit = QuantumCircuit(1, 1)
+    
+    # Apply Hadamard gate to create superposition
+    circuit.h(0)
+    
+    # Measure the qubit
+    circuit.measure(0, 0)
+    
+    return circuit
+
+# Define the quantum circuit for decryption
+def quantum_decryption(circuit):
+    # Create a Quantum Circuit with 1 qubit and 1 classical bit
+    decrypt_circuit = QuantumCircuit(1, 1)
+    
+    # Apply Hadamard gate to decode the superposition state
+    decrypt_circuit.h(0)
+    
+    # Measure the qubit
+    decrypt_circuit.measure(0, 0)
+    
+    return decrypt_circuit
+
+# Encrypt the message
+encryption_circuit = quantum_encryption()
+
+# Print the encryption circuit
+print("Encryption Circuit:")
+print(encryption_circuit.draw())
+
+# Decrypt the message (using the same circuit here for simplicity)
+decryption_circuit = quantum_decryption(encryption_circuit)
+
+# Print the decryption circuit
+print("Decryption Circuit:")
+print(decryption_circuit.draw())
+
+# Simulate the encryption circuit
+backend = Aer.get_backend('qasm_simulator')
+tqc = transpile(encryption_circuit, backend)
+qobj = assemble(tqc)
+encryption_result = execute(encryption_circuit, backend, shots=1024).result()
+encryption_counts = encryption_result.get_counts()
+
+# Simulate the decryption circuit
+decryption_result = execute(decryption_circuit, backend, shots=1024).result()
+decryption_counts = decryption_result.get_counts()
+
+# Plot the results
+print("Encryption Counts:")
+print(encryption_counts)
+plot_histogram(encryption_counts)
+plt.title("Encryption Results")
+plt.show()
+
+print("Decryption Counts:")
+print(decryption_counts)
+plot_histogram(decryption_counts)
+plt.title("Decryption Results")
+plt.show()
+
+```
+
+
 # Reference:
 - [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)
 - [Q#](https://azure.microsoft.com/en-us/resources/development-kit/quantum-computing/#overview)
